@@ -7,7 +7,8 @@ var gulp          = require( 'gulp' ),
     concat        = require('gulp-concat'),
     gutil         = require('gulp-util'),
     sourcemaps    = require('gulp-sourcemaps'),
-    htmlmin       = require('gulp-htmlmin');
+    htmlmin       = require('gulp-htmlmin'),
+    ghPages       = require('gulp-gh-pages');
 
 var files = [
     'src/*.html',
@@ -23,6 +24,11 @@ gulp.task('sass', function () {
     gulp.src(config.sass + '*.scss')
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(gulp.dest('src/assets/'));
+});
+
+gulp.task('deploy', function() {    
+  return gulp.src('./src/**/**/*')
+    .pipe(ghPages());
 });
 
 gulp.task('copyHtml', function() {
@@ -47,7 +53,7 @@ gulp.task( 'watch', function() {
 });
 
 gulp.task( 'connect', function() {
-    connect.server({ root: 'src',livereload: true });
+    connect.server({ root: './src',livereload: true });
 });
 
 
