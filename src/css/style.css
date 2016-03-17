@@ -188,9 +188,6 @@ position: relative;
 padding: 15px;
 }
 
-.skillsImg {
-	max-width: 5em;
-}
 
 /*=================Portfolio====================*/
 .portfolio{
@@ -303,6 +300,8 @@ padding-bottom:0px;
 .row-contact{
 display:table-row;
 padding:0 0 15px 0;
+text-align:center;
+    vertical-align:middle;
 }
 .cell-contact{
 display:table-cell;
@@ -402,6 +401,9 @@ border-radius:100%;
 -moz-border-radius:100%;
 -ms-border-radius:100%;
 -o-border-radius:100%;
+}
+.socIconBlack i{
+	max-width: 4em;
 }
 .socIconBlack:hover{
 color:#fff;
