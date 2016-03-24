@@ -1,0 +1,53 @@
+
+/*=================Portfolio====================*/
+.portfolio{
+position:relative;
+height:auto;
+}
+#slider, #carousel{
+ margin: 0 0 0;
+background: transparent;
+border: none;
+position: relative;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+-o-border-radius: 0px;
+border-radius: 0px;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+-o-box-shadow: none;
+box-shadow: none;
+zoom: 1;
+}
+#carousel li { margin-right: 10px; opacity:.7}
+#carousel li:hover{
+ opacity:1;
+}
+#carousel .flex-active-slide{
+ opacity:1;
+}
+.flex-caption{
+  padding:20px 0;
+}
+.flex-caption p{
+ font-size:14px;
+ margin:0;
+ padding:0;
+}
+.flex-caption h6{
+ font-weight:600;
+ margin:0;
+ padding:0;
+}
+
+#carousel .flex-direction-nav a:before, #slider .flex-direction-nav a:before  {font-family: "FontAwesome"; content: '\f104'; }
+#carousel .flex-direction-nav a.flex-next:before, #slider .flex-direction-nav a.flex-next:before  { content: '\f105'; }
+#slider .flex-direction-nav a:before {
+font-size: 65px;
+color:#fff;
+line-height: 36px;
+}
+#carousel .flex-direction-nav a:before {
+color:#000;
+line-height: 36px;
+}
