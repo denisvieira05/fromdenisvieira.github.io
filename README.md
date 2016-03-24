@@ -1,3 +1,3 @@
-# <a href="http://fromdenisvieira.js.org" target="_blank">fromdenisvieira.js.org</a>
+# <a href="http://denisvieira.js.org" target="_blank">denisvieira.js.org</a>
 
-My personal website and blog .
+My personal and portfolio website .

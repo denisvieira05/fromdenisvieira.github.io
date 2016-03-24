@@ -90,6 +90,10 @@ gulp.task('final_build', ['copy-libs','build-js','compile-sass'], function() {
     gulp.src('./src/assets/styles/main.css')
     .pipe(gulp.dest('./public/assets/styles/'));
 
+    // Copy CNAME
+    gulp.src('./src/CNAME')
+    .pipe(gulp.dest('./public/'));
+
     // Copy fonts
     gulp.src('./src/assets/fonts/**')
     .pipe(gulp.dest('./public/assets/fonts/'));
