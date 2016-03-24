@@ -131,6 +131,6 @@ gulp.task( 'watch', ['compile-sass','build-js','files'], function() {
     gulp.watch( files, ['compile-sass','build-js','files']);
 });
 
-gulp.task( 'build', ['compile-sass','build-js','final_build','files','connect-public']);
+gulp.task( 'build', ['compile-sass','build-js','files','final_build','connect-public']);
 
 gulp.task( 'default', ['watch','connect-dev']);
