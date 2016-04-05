@@ -25,8 +25,8 @@ border-radius:100%;
 -moz-border-radius:100%;
 -ms-border-radius:100%;
 -o-border-radius:100%;
-width:25px;
-height:25px;
+width:35px;
+height:35px;
 }
 .close {
 filter: alpha(opacity=100);
@@ -34,17 +34,17 @@ opacity: 1;
 color: #fff;
 }
 button.close span{
-font-size:21px;
+font-size:25px;
 line-height: 21px;
 font-weight: normal;
 display: block;
-margin-top: -5px;
+margin-top: -3px;
 }
 .modal-header .close {
 margin-top: 0px;
 position: absolute;
-top: -20px;
-right: -20px;
+top: -13px;
+right: -13px;
 z-index: 99;
 }
 .modal-body {
