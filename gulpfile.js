@@ -12,7 +12,8 @@ var gulp          = require( 'gulp' ),
     htmlmin       = require('gulp-htmlmin'),
     imagemin      = require('gulp-imagemin'),
     clean         = require('gulp-clean'),
-    notify        = require('gulp-notify');
+    notify        = require('gulp-notify'),
+    deploy        = require('gulp-deploy-git');
 
 var files = [
     './src/*.html',
@@ -129,6 +130,14 @@ gulp.task( 'connect-dev', function() {
 
 gulp.task( 'watch', ['compile-sass','build-js','files'], function() {
     gulp.watch( files, ['compile-sass','build-js','files']);
+});
+
+gulp.task('deploy', function() {
+  return gulp.src('./public/**/*')
+    .pipe(deploy({
+      repository: 'https://github.com/fromdenisvieira/fromdenisvieira.github.io.git',
+      branches:   ['master']
+    }));
 });
 
 gulp.task( 'build', ['compile-sass','build-js','files','final_build','connect-public']);
