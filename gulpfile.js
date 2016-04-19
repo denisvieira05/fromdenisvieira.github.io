@@ -1,145 +1,66 @@
-'use strict';
+var gulp        = require('gulp'),
+    concat      = require('gulp-concat'),
+    browserSync = require('browser-sync'),
+    plumber     = require('gulp-plumber'),
+    cp          = require('child_process'),
+    changed     = require('gulp-changed'),
 
-var gulp          = require( 'gulp' ),
-    config        = require('./gulp.config')(),
-    connect       = require( 'gulp-connect' ),
-    sass          = require('gulp-sass'),
-    concat        = require('gulp-concat'),
-    gutil         = require('gulp-util'),
-    sourcemaps    = require('gulp-sourcemaps'),
-    uglify        = require('gulp-uglify'),
-    jshint        = require('gulp-jshint'),
-    htmlmin       = require('gulp-htmlmin'),
-    imagemin      = require('gulp-imagemin'),
-    clean         = require('gulp-clean'),
-    notify        = require('gulp-notify'),
-    deploy        = require('gulp-deploy-git');
+    // stylus
+    stylus      = require('gulp-stylus'),
+	rupture     = require('rupture'),
+	prefixer    = require('autoprefixer-stylus'),
+    nib         = require('nib'),
 
-var files = [
-    './src/*.html',
-    'src/assets/styles/**/*.scss',
-    'src/assets/js/*.js',
-    'src/assets/images/**',
-    'src/assets/fonts/**',
-];
+    // images
+    imagemin    = require('gulp-imagemin');
 
-// Delete the dist directory
-gulp.task('clean', function() {
- return gulp.src('./public')
- .pipe(clean());
+var messages = {
+	jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
+};
+
+gulp.task('jekyll-build', function (done) {
+    browserSync.notify(messages.jekyllBuild);
+    return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--drafts', '--quiet', '--config', '_config.yml,_config_dev.yml'], {stdio: 'inherit'}).on('close', done);
+    // return cp.spawn('bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'}).on('close', done);
 });
 
-gulp.task('compile-sass', function () {
-    gulp.src(config.sass + '*.scss')
-    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-    .pipe(gulp.dest('src/assets/styles/'))
-    .pipe(gulp.dest('public/assets/styles/'));
+gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
+    browserSync.reload();
 });
 
-gulp.task('build-js', function() {
-  return gulp.src('src/assets/scripts/script.js')
-    .pipe(jshint())
-    .pipe(jshint.reporter('default'))
-    .pipe(sourcemaps.init())
-    .pipe(concat('bundle.js'))
-    //   only uglify if gulp is ran with '--type production'
-    .pipe(gutil.env.type === 'production' ? uglify() : gutil.noop())
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest('src/assets/scripts'))
-    .pipe(gulp.dest('public/assets/scripts'));
+gulp.task('browserSync', ['jekyll-build'], function() {
+    browserSync({
+        server: { baseDir: "_site/" },
+        open: false
+    });
 });
 
-gulp.task( 'bootstrap_styles', function() {
-    return gulp.src([
-        config.lib + 'bootstrap-sass/assets/stylesheets/bootstrap/**'])
-        .pipe(gulp.dest('src/assets/styles/1-tools/bootstrap'));
+gulp.task('styles', function() {
+    return gulp.src('src/styles/main.styl')
+        .pipe(changed('assets/styles'))
+        .pipe(plumber())
+        .pipe(stylus({
+            use:[prefixer(), rupture(), nib()],
+			compress: false
+        }))
+        .pipe(gulp.dest('_site/assets/styles'))
+        .pipe(gulp.dest('_includes'))
+        .pipe(browserSync.reload({stream: true}))
+        .pipe(gulp.dest('assets/styles'));
 });
 
-gulp.task('copy-libs',['bootstrap_styles'], function() {
-    return gulp.src([config.lib + 'jquery/dist/jquery.min.js',
-        config.lib + 'bootstrap-sass/assets/javascripts/bootstrap.min.js',
-        './src/assets/libs/*.js'])
-        .pipe(sourcemaps.init())
-        .pipe(concat('libs.js'))
-        .pipe(sourcemaps.write())
-        .pipe(uglify())
-        .pipe(gulp.dest('src/assets/scripts/'));
+gulp.task('imagemin', function(tmp) {
+    return gulp.src('assets/images/**/*.{jpg,png,gif}')
+        .pipe(changed('assets/images'))
+        .pipe(plumber())
+        .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
+        .pipe(gulp.dest('assets/images'));
 });
 
-
-// Imagemin images and ouput them in dist
-gulp.task('imagemin', function() {
- gulp.src('./src/assets/images/**')
- .pipe(imagemin())
- .pipe(gulp.dest('public/assets/images/'));
+gulp.task('watch', function() {
+    gulp.watch('src/styles/**/*', ['styles']);
+    gulp.watch('src/images/**/*.{jpg,png,gif}', ['imagemin']);
+    gulp.watch(['_drafts/*', '_includes/*', '_layouts/*', '_posts/*', '*.{html,md}', '_config.yml'], ['jekyll-rebuild']);
 });
 
-
-// Copy all other files to dist directly
-gulp.task('final_build', ['copy-libs','build-js','compile-sass'], function() {
-
-    // Copy html
-    gulp.src('./src/*.html')
-    .pipe(htmlmin({collapseWhitespace: true}))
-    .pipe(gulp.dest('./public/'));
-
-    // Copy pdf file to curriculum
-    gulp.src('./src/*.pdf')
-    .pipe(gulp.dest('./public/'));
-
-    // Copy styles
-    gulp.src('./src/assets/styles/main.css')
-    .pipe(gulp.dest('./public/assets/styles/'));
-
-    // Copy CNAME
-    gulp.src('./src/CNAME')
-    .pipe(gulp.dest('./public/'));
-
-    // Copy fonts
-    gulp.src('./src/assets/fonts/**')
-    .pipe(gulp.dest('./public/assets/fonts/'));
-
-    // Copy fontawesome
-    gulp.src('./src/lib/font-awesome/**')
-    .pipe(gulp.dest('./src/assets/fonts/font-awesome'))
-    .pipe(gulp.dest('./public/assets/fonts/font-awesome'));
-
-    // Minified images and copy to public
-    gulp.src('./src/assets/images/**')
-    // .pipe(imagemin())
-    .pipe(gulp.dest('./public/assets/images/'));
-
-    // Copy lib scripts, maintaining the original directory structure
-    gulp.src(['./src/assets/scripts/libs.js','./src/assets/scripts/bundle.js'])
-    .pipe(gulp.dest('./public/assets/scripts/'))
-    .pipe(notify({ message: 'Build project in public folder #taskcomplete' }));
-
-});
-
-gulp.task( 'files', function() {
-    gulp.src( files ).pipe( connect.reload() );
-});
-
-gulp.task( 'connect-public', function() {
-    connect.server({ root: './public',livereload: true });
-});
-
-gulp.task( 'connect-dev', function() {
-    connect.server({ root: './src',livereload: true });
-});
-
-gulp.task( 'watch', ['compile-sass','build-js','files'], function() {
-    gulp.watch( files, ['compile-sass','build-js','files']);
-});
-
-gulp.task('deploy', function() {
-  return gulp.src('./public/**/*')
-    .pipe(deploy({
-      repository: 'https://github.com/fromdenisvieira/fromdenisvieira.github.io.git',
-      branches:   ['master']
-    }));
-});
-
-gulp.task( 'build', ['compile-sass','build-js','files','final_build','connect-public']);
-
-gulp.task( 'default', ['watch','connect-dev']);
+gulp.task('default', ['styles', 'imagemin', 'browserSync', 'watch']);
