@@ -6,7 +6,7 @@ bio: 'Web Developer'
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: http://sergiokopplin.github.io/indigo
+url: http://denisvieira.js.org/
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
