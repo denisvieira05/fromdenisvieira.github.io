@@ -5,43 +5,39 @@ permalink: /about/index.html
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Olá, meu nome é Denis Vieira Rufino, sou um desenvolvedor e estudante de graduação em Sistemas de Informação pelo Instituto Federal de Alagoas (IFAL), além eterno apaixonado pela ciência, tecnologia, música e inovação .</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<!-- <p>Com uma experiência bastante ecletica</p> -->
 
-<h2>Skills</h2>
+<h2>Habilidades</h2>
 
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
+	<li>HTML - Jade - Markdown</li>
+	<li>Responsive</li>
+	<li>CSS (Stylus, Sass)</li>
+	<li>Javascript</li>
+	<li>Jquery</li>
 	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
+	<li>AngularJS</li>
+	<li>Gulp - Yeoman</li>
+	<li>Git - Gitflow - GitLab Flow</li>
 	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>Wordpress</li>
+	<li>Java</li>
+	<li>Jekyll</li>
+	<li>MySQL - MongoDB - PostgreSQL</li>
+	<li>Scrum</li>
 </ul>
 
-<h2>Projects</h2>
+<h2>Veja alguns de meus <a href="http://denisvieira.js.org/projects/">projetos</a>.</h2>
+
+<h2>Algumas apresentações</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="http://www.slideshare.net/fromdenisvieira/eduscrum-colaborao-que-da-asas" target="_blank">eduScrum - Colaboracao que da asas</a></li>
+	<li><a href="http://www.slideshare.net/fromdenisvieira/desenvolvendo-uma-aplicao-full-javascript-55526899" target="_blank">Desenvolvendo uma aplicacao Full Javascript</a></li>
+	<li><a href="http://www.slideshare.net/fromdenisvieira/construindo-suas-aplicacoes-rapidamente-com-firebase" target="_blank">Construindo suas aplicacoes rapidamente com Firebase</a></li>
+	<li><a href="http://www.slideshare.net/fromdenisvieira/software-as-a-service-55527047" target="_blank">Software as a Service</a></li>
 </ul>
+
+Se quiser saber ainda mais, fique a vontade para olhar o meu <a href="http://denisvieira.js.org/assets/cv_DENIS_VIEIRA_RUFINO.pdf" target="_blank">curriculum</a> .
