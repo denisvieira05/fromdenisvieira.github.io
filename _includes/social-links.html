@@ -23,6 +23,12 @@
         </a>
     {% endif %}
 
+    {% if site.photos %}
+        <a class="link" data-title="{{ site.photos }}.vsco.co" href="http://vsco.co/{{ site.photos }}" target="_blank">
+            <svg class="icon icon-instagram"><use xlink:href="#icon-photos"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.pinterest %}
         <a class="link" data-title="pinterest.com/{{ site.pinterest }}" href="http://pinterest.com/{{ site.pinterest }}" target="_blank">
             <svg class="icon icon-pinterest"><use xlink:href="#icon-pinterest"></use></svg>
