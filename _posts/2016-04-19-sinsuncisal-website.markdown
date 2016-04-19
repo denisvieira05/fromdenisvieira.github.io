@@ -11,6 +11,6 @@ description: "Website para o Sindicato dos Servidores Públicos da Uncisal"
 
 ![Screenshot](http://denisvieira.js.org/assets/images/projects/sinsuncisal.png)
 
-Website para o Sindicato dos Servidores Públicos da Uncisal - [www.sinsuncisal.com.br](http://sinsuncisal.com.br/).
+Website para o Sindicato dos Servidores Públicos da Uncisal - <a href="http://sinsuncisal.com.br/" target="_blank">www.sinsuncisal.com.br</a>.
 
 ---

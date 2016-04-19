@@ -5,7 +5,7 @@ permalink: /about/index.html
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Olá, meu nome é Denis Vieira Rufino, sou um desenvolvedor e estudante de graduação em Sistemas de Informação pelo Instituto Federal de Alagoas (IFAL), além eterno apaixonado pela ciência, tecnologia, música e inovação .</p>
+<p>Olá, meu nome é Denis Vieira Rufino, sou um desenvolvedor web e graduando em Sistemas de Informação pelo Instituto Federal de Alagoas (IFAL), além eterno apaixonado pela ciência, tecnologia, música e inovação .</p>
 
 <!-- <p>Com uma experiência bastante ecletica</p> -->
 
@@ -29,9 +29,14 @@ permalink: /about/index.html
 	<li>Scrum</li>
 </ul>
 
-<h2>Veja alguns de meus <a href="http://denisvieira.js.org/projects/">projetos</a>.</h2>
+<h2><a href="http://denisvieira.js.org/projects/">Projetos</a></h2>
 
-<h2>Algumas apresentações</h2>
+<ul>
+	<li><a href="http://localhost:3000/sinsuncisal-website/" target="_blank">Sinsuncisal - Website</a></li>
+	<li><a href="http://localhost:3000/gamedevcontestal-website/" target="_blank">Game Dev Contest AL - Website</a></li>
+</ul>
+
+<h2>Apresentações</h2>
 
 <ul>
 	<li><a href="http://www.slideshare.net/fromdenisvieira/eduscrum-colaborao-que-da-asas" target="_blank">eduScrum - Colaboracao que da asas</a></li>
@@ -41,3 +46,5 @@ permalink: /about/index.html
 </ul>
 
 Se quiser saber ainda mais, fique a vontade para olhar o meu <a href="http://denisvieira.js.org/assets/cv_DENIS_VIEIRA_RUFINO.pdf" target="_blank">curriculum</a> .
+
+Você precisa de um site, tem alguma pergunta, comentário, ou precisa de alguma ajuda em seu projeto ? Por favor, sinta-se livre para entrar em contato comigo através do email, <a href="mailto:denisvieira05@gmail.com" target="_blank">denisvieira05@gmail.com</a> . Responderei o mais breve possível.

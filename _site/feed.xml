@@ -3,7 +3,7 @@
 <generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator>
 <link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" />
 <link href="http://localhost:3000/" rel="alternate" type="text/html" />
-<updated>2016-04-19T02:03:24-03:00</updated>
+<updated>2016-04-19T02:23:59-03:00</updated>
 <id>http://localhost:3000/</id>
 <title>Denis Vieira</title>
 <entry>
@@ -414,7 +414,7 @@ $(window).scroll(function() {&lt;/p&gt;
 <id>http://localhost:3000/sinsuncisal-website</id>
 <content type="html" xml:base="http://localhost:3000/sinsuncisal-website/">&lt;p&gt;&lt;img src=&quot;http://denisvieira.js.org/assets/images/projects/sinsuncisal.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Website para o Sindicato dos Servidores Públicos da Uncisal - &lt;a href=&quot;http://sinsuncisal.com.br/&quot;&gt;www.sinsuncisal.com.br&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Website para o Sindicato dos Servidores Públicos da Uncisal - &lt;a href=&quot;http://sinsuncisal.com.br/&quot; target=&quot;_blank&quot;&gt;www.sinsuncisal.com.br&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 </content>
@@ -429,7 +429,7 @@ $(window).scroll(function() {&lt;/p&gt;
 <id>http://localhost:3000/gamedevcontestal-website</id>
 <content type="html" xml:base="http://localhost:3000/gamedevcontestal-website/">&lt;p&gt;&lt;img src=&quot;http://denisvieira.js.org/assets/images/projects/gamedevcontest.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Website para o  Game Dev Contest AL - &lt;a href=&quot;http://gamedevcontestal.js.org/&quot;&gt;http://gamedevcontestal.js.org/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Website para o  Game Dev Contest AL - &lt;a href=&quot;http://gamedevcontestal.js.org/&quot; target=&quot;_blank&quot;&gt;http://gamedevcontestal.js.org/&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Partindo de uma iniciativa do &lt;a href=&quot;https://www.facebook.com/groups/349564285252725&quot;&gt;Grupo de Jogos Digitais do IFAL&lt;/a&gt; , o Game Dev Contest AL foi uma oportunidade para os desenvolvedores de games de Alagoas mostrarem suas ideias, e até quem ainda não se aventurou se aventurar no desenvolvimento de jogos, se divertindo criando e dando vida a uma ideia.&lt;/p&gt;
 

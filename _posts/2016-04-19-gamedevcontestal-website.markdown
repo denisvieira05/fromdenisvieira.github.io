@@ -11,7 +11,7 @@ description: "Website para o Game Dev Contest AL "
 
 ![Screenshot](http://denisvieira.js.org/assets/images/projects/gamedevcontest.png)
 
-Website para o  Game Dev Contest AL - [http://gamedevcontestal.js.org/](http://gamedevcontestal.js.org/).
+Website para o  Game Dev Contest AL - <a href="http://gamedevcontestal.js.org/" target="_blank">http://gamedevcontestal.js.org/</a>.
 
 Partindo de uma iniciativa do [Grupo de Jogos Digitais do IFAL](https://www.facebook.com/groups/349564285252725) , o Game Dev Contest AL foi uma oportunidade para os desenvolvedores de games de Alagoas mostrarem suas ideias, e até quem ainda não se aventurou se aventurar no desenvolvimento de jogos, se divertindo criando e dando vida a uma ideia.
 
