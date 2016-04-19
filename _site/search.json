@@ -15,9 +15,16 @@
     } ,
   
     {
-      "title"    : "Sinsuncisal Website",
-      "tags"     : "wordpress",
-      "url"      : "/indigo-jekyll-theme/",
+      "title"    : "Sinsuncisal - Website",
+      "tags"     : "my_projects",
+      "url"      : "/sinsuncisal-website/",
+      "date"     : "23 Jan 2016"
+    } ,
+  
+    {
+      "title"    : "Game Dev Contest AL - Website",
+      "tags"     : "my_projects",
+      "url"      : "/gamedevcontestal-website/",
       "date"     : "23 Jan 2016"
     } 
   

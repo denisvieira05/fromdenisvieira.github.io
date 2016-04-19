@@ -3,7 +3,7 @@
 <generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator>
 <link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" />
 <link href="http://localhost:3000/" rel="alternate" type="text/html" />
-<updated>2016-04-19T00:31:53-03:00</updated>
+<updated>2016-04-19T01:53:21-03:00</updated>
 <id>http://localhost:3000/</id>
 <title>Denis Vieira</title>
 <entry>
@@ -407,36 +407,35 @@ $(window).scroll(function() {&lt;/p&gt;
 <summary>Summary:</summary>
 </entry>
 <entry>
-<title>Sinsuncisal Website</title>
-<link href="http://localhost:3000/indigo-jekyll-theme/" rel="alternate" type="text/html" title="Sinsuncisal Website" />
+<title>Sinsuncisal - Website</title>
+<link href="http://localhost:3000/sinsuncisal-website/" rel="alternate" type="text/html" title="Sinsuncisal - Website" />
 <published>2016-01-23T22:10:00-03:00</published>
 <updated>2016-01-23T22:10:00-03:00</updated>
-<id>http://localhost:3000/indigo-jekyll-theme</id>
-<content type="html" xml:base="http://localhost:3000/indigo-jekyll-theme/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png&quot; alt=&quot;Screenshot&quot; /&gt;
-&lt;img src=&quot;http://denisvieira.js.org/assets/images/projects/sinsuncisal.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+<id>http://localhost:3000/sinsuncisal-website</id>
+<content type="html" xml:base="http://localhost:3000/sinsuncisal-website/">&lt;p&gt;&lt;img src=&quot;http://denisvieira.js.org/assets/images/projects/sinsuncisal.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Example of project - Indigo Minimalist Jekyll Template - &lt;a href=&quot;http://sergiokopplin.github.io/indigo/&quot;&gt;Demo&lt;/a&gt;. This is a simple and minimalist template for Jekyll for those who likes to eat noodles.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;What has inside?&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Gulp&lt;/li&gt;
-  &lt;li&gt;BrowserSync&lt;/li&gt;
-  &lt;li&gt;Stylus&lt;/li&gt;
-  &lt;li&gt;SVG&lt;/li&gt;
-  &lt;li&gt;Travis&lt;/li&gt;
-  &lt;li&gt;No JS&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F&quot;&gt;98/100&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Website para o Sindicato dos Servidores Públicos da Uncisal - &lt;a href=&quot;http://sinsuncisal.com.br/&quot;&gt;www.sinsuncisal.com.br&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://sergiokopplin.github.io/indigo/&quot;&gt;Check it out&lt;/a&gt; here.
-If you need some help, just &lt;a href=&quot;http://github.com/sergiokopplin/indigo/issues&quot;&gt;tell me&lt;/a&gt;.&lt;/p&gt;
 </content>
-<category term="wordpress" />
+<category term="my_projects" />
+<summary></summary>
+</entry>
+<entry>
+<title>Game Dev Contest AL - Website</title>
+<link href="http://localhost:3000/gamedevcontestal-website/" rel="alternate" type="text/html" title="Game Dev Contest AL - Website" />
+<published>2016-01-23T22:10:00-03:00</published>
+<updated>2016-01-23T22:10:00-03:00</updated>
+<id>http://localhost:3000/gamedevcontestal-website</id>
+<content type="html" xml:base="http://localhost:3000/gamedevcontestal-website/">&lt;p&gt;&lt;img src=&quot;http://denisvieira.js.org/assets/images/projects/gamedevcontest.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Website para o  Game Dev Contest AL - &lt;a href=&quot;http://gamedevcontestal.js.org/&quot;&gt;http://gamedevcontestal.js.org/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Partindo de uma iniciativa do &lt;a href=&quot;https://www.facebook.com/groups/349564285252725&quot;&gt;Grupo de Jogos Digitais do IFAL&lt;/a&gt; , o Game Dev Contest AL foi uma oportunidade para os desenvolvedores de games de Alagoas mostrarem suas ideias, e até quem ainda não se aventurou se aventurar no desenvolvimento de jogos, se divertindo criando e dando vida a uma ideia.&lt;/p&gt;
+
+&lt;hr /&gt;
+</content>
+<category term="my_projects" />
 <summary></summary>
 </entry>
 </feed>

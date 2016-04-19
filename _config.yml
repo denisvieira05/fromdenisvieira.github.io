@@ -1,6 +1,6 @@
 # main text of home
 name: Denis Vieira
-bio: 'Web Developer'
+bio: 'Desenvolvedor Web'
 
 # if it's an external image, update below for true
 external-image: false
@@ -46,7 +46,7 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
