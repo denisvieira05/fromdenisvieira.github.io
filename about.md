@@ -9,7 +9,7 @@ permalink: /about/index.html
 
 <!-- <p>Com uma experiência bastante ecletica</p> -->
 
-<h2>Habilidades</h2>
+<h2>Conhecimentos</h2>
 
 <ul class="skill-list">
 	<li>HTML - Jade - Markdown</li>
@@ -39,9 +39,9 @@ permalink: /about/index.html
 <h2>Apresentações</h2>
 
 <ul>
-	<li><a href="http://www.slideshare.net/fromdenisvieira/eduscrum-colaborao-que-da-asas" target="_blank">eduScrum - Colaboracao que da asas</a></li>
-	<li><a href="http://www.slideshare.net/fromdenisvieira/desenvolvendo-uma-aplicao-full-javascript-55526899" target="_blank">Desenvolvendo uma aplicacao Full Javascript</a></li>
-	<li><a href="http://www.slideshare.net/fromdenisvieira/construindo-suas-aplicacoes-rapidamente-com-firebase" target="_blank">Construindo suas aplicacoes rapidamente com Firebase</a></li>
+	<li><a href="http://www.slideshare.net/fromdenisvieira/eduscrum-colaborao-que-da-asas" target="_blank">eduScrum - Colaboração que da asas</a></li>
+	<li><a href="http://www.slideshare.net/fromdenisvieira/desenvolvendo-uma-aplicao-full-javascript-55526899" target="_blank">Desenvolvendo uma aplicação Full Javascript</a></li>
+	<li><a href="http://www.slideshare.net/fromdenisvieira/construindo-suas-aplicacoes-rapidamente-com-firebase" target="_blank">Construindo suas aplicações rapidamente com Firebase</a></li>
 	<li><a href="http://www.slideshare.net/fromdenisvieira/software-as-a-service-55527047" target="_blank">Software as a Service</a></li>
 </ul>
 

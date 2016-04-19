@@ -1,15 +1,8 @@
 [
   
     {
-      "title"    : "Markdown Extra Components",
-      "tags"     : "markdown, components, and extra",
-      "url"      : "/markdown-extra-components/",
-      "date"     : "24 Feb 2016"
-    } ,
-  
-    {
-      "title"    : "Markdown Common Elements",
-      "tags"     : "markdown and elements",
+      "title"    : "Hello World Blog :D",
+      "tags"     : "Jekyll",
       "url"      : "/markdown-common-elements/",
       "date"     : "24 Feb 2016"
     } ,
