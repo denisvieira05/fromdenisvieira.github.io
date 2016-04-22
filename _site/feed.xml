@@ -3,7 +3,7 @@
 <generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator>
 <link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" />
 <link href="http://localhost:3000/" rel="alternate" type="text/html" />
-<updated>2016-04-20T15:09:59-03:00</updated>
+<updated>2016-04-22T14:32:13-03:00</updated>
 <id>http://localhost:3000/</id>
 <title>Denis Vieira</title>
 <entry>
@@ -12,14 +12,45 @@
 <published>2016-02-24T22:44:00-03:00</published>
 <updated>2016-02-24T22:44:00-03:00</updated>
 <id>http://localhost:3000/hello-world-blog</id>
-<content type="html" xml:base="http://localhost:3000/hello-world-blog/">&lt;h2 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h2&gt;
+<content type="html" xml:base="http://localhost:3000/hello-world-blog/">&lt;p&gt;E vamo lá naquele velho e bom Hello World, rs&lt;/p&gt;
 
-&lt;p&gt;http://willianjusten.com.br/perguntas-e-respostas-jekyll/&lt;/p&gt;
+&lt;p&gt;Bem, desde que comecei a navegar pela web sempre gostei bastante de ler blogs, comentar, e até tentei criar um lá no blogspot pra compartilhar algumas coisas sobre música, uma paixão da época e de sempre e que inclusive ainda ta lá &lt;a href=&quot;http://fromdenisvieira.blogspot.com.br/&quot;&gt;http://fromdenisvieira.blogspot.com.br/&lt;/a&gt;, rs, mas infelizmente não tive prolongar muito. Então, sempre apaixonado e viciado na web sempre tentei muitas coisas, desde sites, rádios até servidores de jogos online, seguindo sempre aquele princípio de “faça você mesmo!”, dai depois de uma breve passagem e choque de realidade no curso de Bacharelado em Física na Universidade Federal de Alagoas, consegui ingressar meus estudos no curso de Bacharelado em Sistemas de Informação lá no Instituto Federal de Alagoas e comecei a engrenar nessa área de tecnologia e posteriormente procurei me especializar cada vez mais na área de desenvolvimento web, a qual venho me identificado e gostado bastante.&lt;/p&gt;
+
+&lt;p&gt;Desde que comecei a acompanhar varios blogs, e a adquirir alguns conhecimentos muito úteis com outras pessoas muito boas que também tem essa iniciativa e objetivo de compartilhar conhecimento e aprender sempre mais com isso, decidi criar esse blog/portfólio tanto ajudar outras pessoas compartilhando alguns conhecimentos que venho adquirindo, tanto para “pegar o bigu” e divulgar alguns projetos que venho desenvolvendo para quem sabe possamos trabalhar juntos, ou eu possa desenvolver algum projeto para você .&lt;/p&gt;
+
+&lt;p&gt;Então, sem mais delongas, vamos á maravilha do &lt;b&gt;&lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;&lt;/b&gt;  \õ\Õ\õ ‘’&lt;/p&gt;
+
+&lt;p&gt;E para auxiliar em todo esse processo de conceituação e iniciação, irei sempre pedir a ajudar e citar varias referências que já escreveram algo sobre o contéudo, para não precisar “refazer a roda” e divulgar e dar os devidos créditos à toda informação compartilhada da melhor maneira.&lt;/p&gt;
+
+&lt;p&gt;Então, o &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt; é um gerador de sites estáticos escrito em Ruby, nesse &lt;b&gt;&lt;a href=&quot;http://www.felipefialho.com/blog/2013/geradores-estaticos-breve-explicacao/#.VxpJdFYrLQo&quot; target=&quot;_blank&quot;&gt;post&lt;/a&gt;&lt;/b&gt; do Felipe Fialho ele explica bem claramente o que é isso e toda sua facilidade em produzir sites e blogs estáticos. O &lt;a href=&quot;http://tableless.com.br/jekyll-servindo-sites-estaticos/&quot; target=&quot;_blank&quot;&gt;Tableless&lt;/a&gt; também defini bem e aponta bem claramente o problema que o Jekyll resolve.&lt;/p&gt;
+
+&lt;p&gt;” O Jekyll é um gerador de códigos estáticos. A ideia é que você crie páginas e até mesmo um blog de forma estática, usando HTML que você já conhece, junto com alguns truques que irão ajudá-lo a converter seu site em arquivos estáticos, pronto para ser publicado. Ele é baseado em vários formatos como Markdown para formatação de textos e posts e um padrão de template chamado Liquid com um pouco de YAML para exibir e guardar os dados das variáveis. Não se preocupe com a sopa de letras, por enquanto. Mais à frente no texto você vai entender um pouco mais. “&lt;/p&gt;
+
+&lt;p&gt;Você pode rodar o Jekyll em qualquer servidor que dê suporte a HTML, CSS e arquivos de Imagem, ou seja, basicamente qualquer lugar!&lt;/p&gt;
+
+&lt;p&gt;No site &lt;a href=&quot;https://www.staticgen.com/&quot; target=&quot;_blank&quot;&gt;https://www.staticgen.com/&lt;/a&gt; você pode encontrar uma lista com vários geradores de sites estáticos nas mais diversas linguagens .&lt;/p&gt;
+
+&lt;h2 id=&quot;dev-blogs&quot;&gt;Dev Blogs&lt;/h2&gt;
+&lt;p&gt;Alguns blogs de devs ou grupos de devs que acompanho suas públicações :&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;http://willianjusten.com.br/perguntas-e-respostas-jekyll/&lt;/li&gt;
+  &lt;li&gt;http://jekyllbootstrap.com/&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;markdown&quot;&gt;Markdown&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;http://daringfireball.net/projects/markdown/&lt;/li&gt;
+  &lt;li&gt;http://www.fileformat.info/info/unicode/char/2163/index.htm&lt;/li&gt;
+  &lt;li&gt;http://www.markitdown.net/&lt;/li&gt;
+  &lt;li&gt;http://daringfireball.net/projects/markdown/basics&lt;/li&gt;
+  &lt;li&gt;http://daringfireball.net/projects/markdown/syntax&lt;/li&gt;
+  &lt;li&gt;http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg&lt;/li&gt;
+&lt;/ul&gt;
 </content>
 <category term="Jekyll" />
-<summary>Jekyll</summary>
+<summary>E vamo lá naquele velho e bom Hello World, rs</summary>
 </entry>
 <entry>
 <title>Sinsuncisal - Website</title>

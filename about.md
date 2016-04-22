@@ -5,7 +5,7 @@ permalink: /about/index.html
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Olá, meu nome é Denis Vieira Rufino, sou um desenvolvedor web e graduando em Sistemas de Informação pelo Instituto Federal de Alagoas (IFAL) na cidade onde moro Maceió-AL, além eterno apaixonado pela ciência, tecnologia, natureza, música e inovação .</p>
+<p>Olá, meu nome é Denis Vieira, natural de Maceió-AL, sou um desenvolvedor web e graduando em Sistemas de Informação pelo Instituto Federal de Alagoas (IFAL), além eterno apaixonado pela ciência, tecnologia, natureza, música e inovação .</p>
 
 <!-- <p>Com uma experiência bastante ecletica</p> -->
 
@@ -34,8 +34,8 @@ permalink: /about/index.html
 <h2><a href="http://denisvieira.js.org/projects/">Projetos</a></h2>
 
 <ul>
-	<li><a href="http://localhost:3000/sinsuncisal-website/" target="_blank">Sinsuncisal - Website</a></li>
-	<li><a href="http://localhost:3000/gamedevcontestal-website/" target="_blank">Game Dev Contest AL - Website</a></li>
+	<li><a href="http://denisvieira.js.org/sinsuncisal-website/">Sinsuncisal - Website</a></li>
+	<li><a href="http://denisvieira.js.org/gamedevcontestal-website/">Game Dev Contest AL - Website</a></li>
 </ul>
 
 <h2>Apresentações</h2>

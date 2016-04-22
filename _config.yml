@@ -6,7 +6,7 @@ bio: 'Desenvolvedor Web'
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: http://denisvieira.js.org/
+url: http://denisvieira.js.org
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
