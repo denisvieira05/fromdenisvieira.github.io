@@ -5,9 +5,9 @@ permalink: /about/index.html
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Olá, meu nome é Denis Vieira, natural de Maceió-AL, sou um desenvolvedor web e estou cursando Bacharelado em Sistemas de Informação no Instituto Federal de Alagoas (IFAL), além de eterno apaixonado pela ciência, tecnologia, natureza, música e inovação .</p>
+<p>Olá, meu nome é Denis Vieira, natural de Maceió-AL, sou um desenvolvedor web e estudante de Bacharelado em Sistemas de Informação no Instituto Federal de Alagoas (IFAL), além de eterno apaixonado pela ciência, tecnologia, natureza, música e inovação.</p>
 
-<!-- <p>Com uma experiência bastante ecletica</p> -->
+<p>Procurando atuar no ramo de desenvolvimento web, participei ativamente de algumas empresas e projetos no desenvolvimento de sistemas e websites, onde consegui aprender boas práticas para planejamento e execução de inúmeros tipos projetos, sempre focados no resultado e satisfação do cliente, além exercer sempre a prática de ir à eventos e realizar cursos e tutoriais procurando manter-me o mais atualizado possível. Meus projetos são focados na simplicidade de uso, porém sem abrir mão de recursos de última geração para realizar as necessidades e proporcionar a melhor experiência para o usuário final.</p>
 
 <h2>Conhecimentos</h2>
 
