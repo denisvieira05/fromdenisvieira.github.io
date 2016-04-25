@@ -1,9 +1,9 @@
 [
   
     {
-      "title"    : "Hello World Blog :D",
+      "title"    : "Hello World - Jekyll Blog",
       "tags"     : "Jekyll",
-      "url"      : "/hello-world-blog/",
+      "url"      : "/hello-world-jekyll-blog/",
       "date"     : "24 Feb 2016"
     } ,
   
