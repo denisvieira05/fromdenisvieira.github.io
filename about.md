@@ -7,7 +7,7 @@ permalink: /about/index.html
 
 <p>Olá, meu nome é Denis Vieira, natural de Maceió-AL, sou um desenvolvedor web e estudante de Bacharelado em Sistemas de Informação no Instituto Federal de Alagoas (IFAL), além de eterno apaixonado pela ciência, tecnologia, natureza, música e inovação.</p>
 
-<p>Procurando atuar no ramo de desenvolvimento web, participei ativamente de algumas empresas e projetos no desenvolvimento de sistemas e websites, onde consegui aprender boas práticas para planejamento e execução de inúmeros tipos projetos, sempre focados no resultado e satisfação do cliente, além exercer sempre a prática de ir à eventos e realizar cursos e tutoriais procurando manter-me o mais atualizado possível. Meus projetos são focados na simplicidade de uso, porém sem abrir mão de recursos de última geração para realizar as necessidades e proporcionar a melhor experiência para o usuário final.</p>
+<p>Participando ativamente de algumas empresas e projetos no desenvolvimento de sistemas e websites, consegui aprender boas práticas para planejamento e execução de inúmeros tipos projetos, sempre focados no resultado e satisfação do cliente. Procuro manter sempre a prática de ir à eventos, meetups, realizar cursos e tutoriais, procurando manter-me sempre o mais atualizado possível. Meus projetos são focados na simplicidade de uso, porém sem abrir mão de recursos de última geração para realizar as necessidades e proporcionar a melhor experiência para o usuário final.</p>
 
 <h2>Conhecimentos</h2>
 
@@ -47,7 +47,7 @@ permalink: /about/index.html
 	<li><a href="http://www.slideshare.net/fromdenisvieira/software-as-a-service-55527047" target="_blank">Software as a Service</a></li>
 </ul>
 
-Se quiser saber ainda mais, fique a vontade para olhar o meu <a href="http://denisvieira.js.org/assets/cv_DENIS_VIEIRA_RUFINO.pdf" target="_blank">curriculum</a> .
+Se quiser saber ainda mais, fique a vontade para olhar o meu <a href="https://br.linkedin.com/in/fromdenisvieira" target="_blank">Linkedin</a> ou <a href="http://denisvieira.js.org/assets/cv_DENIS_VIEIRA_RUFINO.pdf" target="_blank">curriculum</a> .
 
 Você precisa de um site, tem alguma pergunta, comentário, ou precisa de alguma ajuda em seu projeto ? Por favor, sinta-se livre para entrar em contato comigo através do email, <a href="mailto:denisvieira05@gmail.com" target="_blank">denisvieira05@gmail.com</a>, responderei o mais breve possível.
 

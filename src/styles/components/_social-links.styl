@@ -22,7 +22,7 @@
             display inline-block
             position absolute
             bottom -34px
-            left -6px
+            left -115px
             margin 0 auto
             font-size 13px
             padding 3px 10px
@@ -35,6 +35,9 @@
             transition opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear
             transform translate3d(0,-8px,0)
             z-index 99
+
+        &:first-child:before
+            left -6px
 
         &:after
             content ""

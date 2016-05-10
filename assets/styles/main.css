@@ -1149,7 +1149,7 @@ pre {
   display: inline-block;
   position: absolute;
   bottom: -34px;
-  left: -6px;
+  left: -115px;
   margin: 0 auto;
   font-size: 13px;
   padding: 3px 10px;
@@ -1164,6 +1164,9 @@ pre {
   -webkit-transform: translate3d(0, -8px, 0);
           transform: translate3d(0, -8px, 0);
   z-index: 99;
+}
+.social-links > .link:first-child:before {
+  left: -6px;
 }
 .social-links > .link:after {
   content: "";
