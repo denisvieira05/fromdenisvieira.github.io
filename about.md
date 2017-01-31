@@ -5,13 +5,15 @@ permalink: /about/index.html
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Olá, meu nome é Denis Vieira, natural de Maceió-AL, sou um desenvolvedor web e estudante de Bacharelado em Sistemas de Informação no Instituto Federal de Alagoas (IFAL), além de eterno apaixonado pela ciência, tecnologia, natureza, música e inovação.</p>
+<p>Olá, meu nome é Denis Vieira , natural de Maceió-AL, sou um desenvolvedor e estudante do curso de Bacharelado em Sistemas de Informação no Instituto Federal de Alagoas (IFAL), sempre adepto da prática DIY(Faça você mesmo) sempre fui fanático por novos conhecimentos, procurar as melhores soluções e desenvolver sempre da forma mais organizada e escalável possível. Grande apaixonado pela tecnologia, natureza, música e inovação, o foco em manter a harmonia dos projetos como um todo sempre se mantém essencial .</p>
 
-<p>Participando ativamente de algumas empresas e projetos no desenvolvimento de sistemas e websites, consegui aprender boas práticas para planejamento e execução de inúmeros tipos projetos, sempre focados no resultado e satisfação do cliente. Procuro manter sempre a prática de ir à eventos, meetups, realizar cursos e tutoriais, procurando manter-me sempre o mais atualizado possível. Meus projetos são focados na simplicidade de uso, porém sem abrir mão de recursos de última geração para realizar as necessidades e proporcionar a melhor experiência para o usuário final.</p>
+<p>Participando ativamente de algumas empresas e projetos no desenvolvimento sistemas,aplicativos e websites, consegui aprender boas práticas para planejamento e execução de inúmeros tipos projetos, sempre focados no resultado e satisfação do cliente. Procuro manter sempre a prática de ir à eventos, meetups, realizar cursos e tutoriais, procurando manter-me sempre o mais atualizado possível. Meus projetos são focados na objetividade do uso, porém sem abrir mão de recursos de última geração para realizar as necessidades e proporcionar a melhor experiência para o usuário final.</p>
 
 <h2>Conhecimentos</h2>
 
 <ul class="skill-list">
+	<li>Java Android</li>
+	<li>Java Web</li>
 	<li>HTML - Jade - Markdown</li>
 	<li>Responsive</li>
 	<li>CSS (Stylus, Sass)</li>
@@ -25,7 +27,6 @@ permalink: /about/index.html
 	<li>Git - Gitflow - GitLab Flow</li>
 	<li>PHP</li>
 	<li>Wordpress</li>
-	<li>Java</li>
 	<li>Jekyll</li>
 	<li>MySQL - MongoDB - PostgreSQL</li>
 	<li>Scrum</li>
