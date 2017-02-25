@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="http://denisvieira.js.org/feed.xml" rel="self" type="application/atom+xml" /><link href="http://denisvieira.js.org/" rel="alternate" type="text/html" /><updated>2017-01-31T03:54:59+00:00</updated><id>http://denisvieira.js.org/</id><title>Denis Vieira</title><entry><title>Hello World - Jekyll Blog</title><link href="http://denisvieira.js.org/hello-world-jekyll-blog/" rel="alternate" type="text/html" title="Hello World - Jekyll Blog" /><published>2017-01-30T22:44:00+00:00</published><updated>2017-01-30T22:44:00+00:00</updated><id>http://denisvieira.js.org/hello-world-jekyll-blog</id><content type="html" xml:base="http://denisvieira.js.org/hello-world-jekyll-blog/">&lt;p&gt;E vamo lá naquele velho e bom Hello World, rs&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2017-02-25T01:22:29-03:00</updated><id>http://localhost:3000/</id><title type="html">Denis Vieira</title><entry><title type="html">Hello World - Jekyll Blog</title><link href="http://localhost:3000/hello-world-jekyll-blog/" rel="alternate" type="text/html" title="Hello World - Jekyll Blog" /><published>2017-01-30T22:44:00-03:00</published><updated>2017-01-30T22:44:00-03:00</updated><id>http://localhost:3000/hello-world-jekyll-blog</id><content type="html" xml:base="http://localhost:3000/hello-world-jekyll-blog/">&lt;p&gt;E vamo lá naquele velho e bom Hello World, rs&lt;/p&gt;
 
 &lt;p&gt;Bem, então vou começar falando um pouco de mim, desde que comecei a navegar pela web sempre gostei bastante de ler blogs, comentar, e até tentei criar um lá no blogspot para compartilhar algumas coisas sobre música, uma paixão da época e de sempre e que inclusive ainda ta lá &lt;a href=&quot;http://fromdenisvieira.blogspot.com.br/&quot;&gt;http://fromdenisvieira.blogspot.com.br/&lt;/a&gt;, rs, mas infelizmente não tive como prolongar muito. Então, sempre apaixonado por novos conhecimentos e aventuras, na web sempre tentei muitas coisas, desde sites, rádios até servidores de jogos online, seguindo sempre aquele princípio DIY (faça você mesmo!), dai depois de uma breve passagem e choque de realidade no curso de Bacharelado em Física na Universidade Federal de Alagoas, consegui ingressar meus estudos no curso de Bacharelado em Sistemas de Informação lá no Instituto Federal de Alagoas e comecei a engrenar nessa área de tecnologia e posteriormente procurei e procurei me especializar cada vez mais na área de desenvolvimento web, a qual foi minha porta de entrada no mundo do desenvolvimento de projetos reais .&lt;/p&gt;
 
@@ -32,22 +32,22 @@
     &lt;p&gt;Abra o arquivo docker-compose.yml&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Em “volumes” mude o path antes dos dois pontos :app para o caminho da pasta do seu futuro projeto jekyll&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-volumes:
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;volumes:
  /path/to/your/jekyllsite:/app
-&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Entre na pasta do reposítorio do Jekyll container pelo terminal e digite :
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-docker-compose up
-&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Entre na pasta do reposítorio do Jekyll container pelo terminal e digite :
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker-compose up
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;Logo em seguida ele irá baixar a imagem e suas dependencias e assim que completar você já pode acessar seu projeto no browser em &lt;a href=&quot;http://localhost:4000&quot; target=&quot;_blank&quot;&gt;http://localhost:4000&lt;/a&gt; .&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Bem não me estendi muito sobre o Docker até porque meus estudos nele ainda são bem breves e não é o tema do post, mas futuramente pretendo postar mais alguma coisa, além de qualquer dúvida e sugestão sempre é bem vinda .&lt;/p&gt;
 
-&lt;h1 id=&quot;bnus&quot;&gt;Bônus&lt;/h1&gt;
+&lt;h1 id=&quot;bônus&quot;&gt;Bônus&lt;/h1&gt;
 &lt;p&gt;Logo abaixo vou deixar alguns links de alguns blogs de devs, Jekyll para vocês aprenderem mais sobre geradores estáticos além de um pouco de markdown que é mais que útil pra quem qualquer dev :&lt;/p&gt;
 
 &lt;h2 id=&quot;dev-blogs&quot;&gt;Dev Blogs&lt;/h2&gt;
@@ -63,7 +63,7 @@ docker-compose up
   &lt;li&gt;&lt;a href=&quot;http://jekyll.tips/&quot; target=&quot;_blank&quot;&gt;http://jekyll.tips/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;docker&quot;&gt;Docker&lt;/h2&gt;
+&lt;p&gt;##Docker&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://techfree.com.br/2015/10/entendendo-o-docker-parte-1/&quot; target=&quot;_blank&quot;&gt;http://techfree.com.br/2015/10/entendendo-o-docker-parte-1/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -75,14 +75,14 @@ docker-compose up
   &lt;li&gt;&lt;a href=&quot;http://www.markitdown.net/&quot; target=&quot;_blank&quot;&gt;http://www.markitdown.net/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://daringfireball.net/projects/markdown/basics&quot; target=&quot;_blank&quot;&gt;http://daringfireball.net/projects/markdown/basics&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg&quot; target=&quot;_blank&quot;&gt;http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Jekyll" /><summary>E vamo lá naquele velho e bom Hello World, rs</summary></entry><entry><title>Sinsuncisal - Website</title><link href="http://denisvieira.js.org/sinsuncisal-website/" rel="alternate" type="text/html" title="Sinsuncisal - Website" /><published>2016-01-23T22:10:00+00:00</published><updated>2016-01-23T22:10:00+00:00</updated><id>http://denisvieira.js.org/sinsuncisal-website</id><content type="html" xml:base="http://denisvieira.js.org/sinsuncisal-website/">&lt;p&gt;&lt;img src=&quot;http://denisvieira.js.org/assets/images/projects/sinsuncisal.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Jekyll" /><summary type="html">E vamo lá naquele velho e bom Hello World, rs</summary></entry><entry><title type="html">Sinsuncisal - Website</title><link href="http://localhost:3000/sinsuncisal-website/" rel="alternate" type="text/html" title="Sinsuncisal - Website" /><published>2016-01-23T22:10:00-03:00</published><updated>2016-01-23T22:10:00-03:00</updated><id>http://localhost:3000/sinsuncisal-website</id><content type="html" xml:base="http://localhost:3000/sinsuncisal-website/">&lt;p&gt;&lt;img src=&quot;http://denisvieira.js.org/assets/images/projects/sinsuncisal.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Website para o Sindicato dos Servidores Públicos da Uncisal - &lt;a href=&quot;http://sinsuncisal.com.br/&quot; target=&quot;_blank&quot;&gt;www.sinsuncisal.com.br&lt;/a&gt;.&lt;/p&gt;
 
-&lt;hr /&gt;</content><category term="my_projects" /><summary></summary></entry><entry><title>Game Dev Contest AL - Website</title><link href="http://denisvieira.js.org/gamedevcontestal-website/" rel="alternate" type="text/html" title="Game Dev Contest AL - Website" /><published>2016-01-23T22:10:00+00:00</published><updated>2016-01-23T22:10:00+00:00</updated><id>http://denisvieira.js.org/gamedevcontestal-website</id><content type="html" xml:base="http://denisvieira.js.org/gamedevcontestal-website/">&lt;p&gt;&lt;img src=&quot;http://denisvieira.js.org/assets/images/projects/gamedevcontest.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;</content><author><name></name></author><category term="projects" /><summary type="html"></summary></entry><entry><title type="html">Game Dev Contest AL - Website</title><link href="http://localhost:3000/gamedevcontestal-website/" rel="alternate" type="text/html" title="Game Dev Contest AL - Website" /><published>2016-01-23T22:10:00-03:00</published><updated>2016-01-23T22:10:00-03:00</updated><id>http://localhost:3000/gamedevcontestal-website</id><content type="html" xml:base="http://localhost:3000/gamedevcontestal-website/">&lt;p&gt;&lt;img src=&quot;http://denisvieira.js.org/assets/images/projects/gamedevcontest.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Website para o  Game Dev Contest AL - &lt;a href=&quot;http://gamedevcontestal.js.org/&quot; target=&quot;_blank&quot;&gt;http://gamedevcontestal.js.org/&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Partindo de uma iniciativa do &lt;a href=&quot;https://www.facebook.com/groups/349564285252725&quot;&gt;Grupo de Jogos Digitais do IFAL&lt;/a&gt; , o Game Dev Contest AL foi uma oportunidade para os desenvolvedores de games de Alagoas mostrarem suas ideias, e até quem ainda não se aventurou se aventurar no desenvolvimento de jogos, se divertindo criando e dando vida a uma ideia.&lt;/p&gt;
 
-&lt;hr /&gt;</content><category term="my_projects" /><summary></summary></entry></feed>
+&lt;hr /&gt;</content><author><name></name></author><category term="projects" /><summary type="html"></summary></entry></feed>

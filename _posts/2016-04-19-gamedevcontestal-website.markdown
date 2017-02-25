@@ -2,7 +2,7 @@
 title: "Game Dev Contest AL - Website"
 layout: post
 date: 2016-01-23 22:10
-tag: my_projects
+tag: projects
 img: indigo/indigo.png
 projects: true
 description: "Website para o Game Dev Contest AL "
