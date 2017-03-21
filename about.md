@@ -5,30 +5,21 @@ permalink: /about/index.html
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Olá, meu nome é Denis Vieira , natural de Maceió-AL, sou um desenvolvedor e estudante do curso de Bacharelado em Sistemas de Informação no Instituto Federal de Alagoas (IFAL), sempre adepto da prática DIY(Faça você mesmo) sempre fui fanático por novos conhecimentos, procurar as melhores soluções e desenvolver sempre da forma mais organizada e escalável possível. Grande apaixonado pela tecnologia, natureza, música e inovação, o foco em manter a harmonia dos projetos como um todo sempre se mantém essencial .</p>
+<p>Olá, meu nome é Denis Vieira , natural de Maceió-AL, atualmente sou desenvolvedor no <a href="http://www.stant.com.br/" target="_blank">STANT</a> e graduando do curso de Bacharelado em Sistemas de Informação no Instituto Federal de Alagoas (IFAL), sempre adepto da prática DIY(Faça você mesmo) sempre fui fanático por novos conhecimentos, procurar as melhores soluções e desenvolver sempre da forma mais organizada e escalável possível. Grande apaixonado pela tecnologia, natureza, música e inovação, manter a harmonia dos projetos como um todo sempre se mantém em foco .</p>
 
-<p>Participando ativamente de algumas empresas e projetos no desenvolvimento sistemas,aplicativos e websites, consegui aprender boas práticas para planejamento e execução de inúmeros tipos projetos, sempre focados no resultado e satisfação do cliente. Procuro manter sempre a prática de ir à eventos, meetups, realizar cursos e tutoriais, procurando manter-me sempre o mais atualizado possível. Meus projetos são focados na objetividade do uso, porém sem abrir mão de recursos de última geração para realizar as necessidades e proporcionar a melhor experiência para o usuário final.</p>
+<p>Participando ativamente de algumas empresas e projetos no desenvolvimento sistemas,aplicativos e websites, consegui aprender boas práticas para planejamento e execução de inúmeros tipos projetos, sempre focados no resultado e satisfação do cliente. Entusiasta pelo compartilhamento de conhecimento sempre mantenho em prática, ir à eventos, meetups, realizar cursos e tutoriais, procurando ampliar o conhecimento e manter-me sempre o mais atualizado possível. Meus projetos são focados na objetividade do uso, porém sem abrir mão de recursos de última geração para realizar as necessidades e proporcionar a melhor experiência para o usuário final.</p>
 
-<h2>Conhecimentos</h2>
+<h2>Com o que já trabalhei ..</h2>
 
 <ul class="skill-list">
-	<li>Java Android</li>
-	<li>Java Web</li>
-	<li>HTML - Jade - Markdown</li>
-	<li>Responsive</li>
-	<li>CSS (Stylus, Sass)</li>
-	<li>Javascript</li>
-	<li>Jquery</li>
-	<li>NodeJS</li>
-	<li>AngularJS</li>
-	<li>Cordova/Phonegap</li>
-	<li>Ionic</li>
-	<li>Gulp - Yeoman</li>
-	<li>Git - Gitflow - GitLab Flow</li>
-	<li>PHP</li>
-	<li>Wordpress</li>
-	<li>Jekyll</li>
-	<li>MySQL - MongoDB - PostgreSQL</li>
+	<li>Java Android, Java Web (JSP) ..</li>
+	<li>HTML, Jade, Markdown, CSS (Stylus, Sass), Javascript, Jquery ..</li>
+	<li>NodeJS, Jquery, AngularJS, ReactJS ..</li>
+	<li>Cordova/Phonegap, Ionic ..</li>
+	<li>Gulp, Yeoman ..</li>
+	<li>Git, Gitflow, GitLab Flow ..</li>
+	<li>PHP, Wordpress, Jekyll ..</li>
+	<li>MySQL, SQLITE, MongoDB, PostgreSQL ..</li>
 	<li>Scrum</li>
 </ul>
 
