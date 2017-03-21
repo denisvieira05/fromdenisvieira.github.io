@@ -8,6 +8,20 @@
     } ,
   
     {
+      "title"    : "Construindo suas aplicações rapidamente com Firebase",
+      "tags"     : "talks",
+      "url"      : "/construindo-suas-aplica%C3%A7%C3%B5es-rapidamente-com-firebase/",
+      "date"     : "04 May 2016"
+    } ,
+  
+    {
+      "title"    : "Software as a Service",
+      "tags"     : "talks",
+      "url"      : "/software-as-a-service/",
+      "date"     : "07 Mar 2016"
+    } ,
+  
+    {
       "title"    : "Sinsuncisal - Website",
       "tags"     : "projects",
       "url"      : "/sinsuncisal-website/",
@@ -19,6 +33,20 @@
       "tags"     : "projects",
       "url"      : "/gamedevcontestal-website/",
       "date"     : "23 Jan 2016"
+    } ,
+  
+    {
+      "title"    : "eduScrum - Colaboração que da asas",
+      "tags"     : "talks",
+      "url"      : "/eduscrum-colaborao-que-da-asas/",
+      "date"     : "26 Nov 2015"
+    } ,
+  
+    {
+      "title"    : "Desenvolvendo uma aplicação Full Javascript",
+      "tags"     : "talks",
+      "url"      : "/desenvolvendo-uma-aplicacao-full-javascript/",
+      "date"     : "26 Nov 2015"
     } 
   
 ]

@@ -458,19 +458,22 @@ pre {
 }
 .home,
 .blog,
-.projects {
+.projects,
+.talks {
   margin-top: 80px;
 }
 .home > .list,
 .blog > .list,
-.projects > .list {
+.projects > .list,
+.talks > .list {
   border-top: 1px solid #ededed;
   padding-top: 40px;
   position: relative;
 }
 .home > .list:before,
 .blog > .list:before,
-.projects > .list:before {
+.projects > .list:before,
+.talks > .list:before {
   display: block;
   content: " ";
   width: 7px;
@@ -486,6 +489,7 @@ pre {
 }
 .home > .list > .item,
 .blog > .list > .item,
+.talks > .list > .item,
 .projects > .list > .item {
   display: block;
   width: 95%;
@@ -493,6 +497,7 @@ pre {
 }
 .home > .list > .item > .url,
 .blog > .list > .item > .url,
+.talks > .list > .item > .url,
 .projects > .list > .item > .url {
   width: 100%;
   height: 100%;
@@ -502,6 +507,7 @@ pre {
 }
 .home > .list > .item > .url > .title,
 .blog > .list > .item > .url > .title,
+.talks > .list > .item > .url > .title,
 .projects > .list > .item > .url > .title {
   margin: 0;
   width: 75%;
@@ -511,11 +517,13 @@ pre {
 }
 .home > .list > .item:hover > .url > .title,
 .blog > .list > .item:hover > .url > .title,
+.talks > .list > .item:hover > .url > .title,
 .projects > .list > .item:hover > .url > .title {
   color: #4b0082;
 }
 .home > .list aside,
 .blog > .list aside,
+.talks > .list aside,
 .projects > .list aside {
   position: relative;
   top: 2px;
@@ -530,6 +538,7 @@ pre {
 }
 .home > .list .item:hover .url aside,
 .blog > .list .item:hover .url aside,
+.talks > .list .item:hover .url aside,
 .projects > .list .item:hover .url aside {
   color: #666;
 }

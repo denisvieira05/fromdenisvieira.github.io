@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /talks/index.html
+title: Talks
+---
+{% include header.html %}
+
+<section class="list">
+    {% for post in site.posts %}
+        {% if post.talks %}
+            <div class="item {% if post.star == true %}star{% endif %}">
+                <a class="url" href="{{ site.url }}{{ post.url }}">
+                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%d %b %Y" }}</time></aside>
+                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
+
+{% include footer.html %}
