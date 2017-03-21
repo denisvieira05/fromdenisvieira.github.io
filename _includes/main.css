@@ -465,7 +465,6 @@ pre {
 .blog > .list,
 .projects > .list {
   border-top: 1px solid #ededed;
-  margin-top: 30px;
   padding-top: 40px;
   position: relative;
 }
@@ -892,7 +891,6 @@ pre {
   padding: 5px 12px;
 }
 .nav-home {
-  margin-top: 20px;
   text-align: center;
 }
 .nav-home > .list {
