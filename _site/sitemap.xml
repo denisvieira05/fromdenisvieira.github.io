@@ -30,4 +30,8 @@
 <url>
 <loc>http://localhost:3000/tags/</loc>
 </url>
+<url>
+<loc>http://localhost:3000/talks/rscss-styling-css-without-losing-your-sanity.html</loc>
+<lastmod>2017-07-17T23:42:15-03:00</lastmod>
+</url>
 </urlset>

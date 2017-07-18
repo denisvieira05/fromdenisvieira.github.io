@@ -1,6 +1,6 @@
 # main text of home
 name: Denis Vieira
-bio: 'Desenvolvedor Web'
+bio: 'Desenvolvedor Web e Mobile'
 
 # if it's an external image, update below for true
 external-image: false
@@ -43,10 +43,10 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
-about: true
+about: false
 blog: false
 
 # do you want to show the "read time" of the posts?
